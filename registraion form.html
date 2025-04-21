@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Registraion form</h1>
+  <p>Fill out the form carefully for the registration</p>
+
+  <form>
+    <h3> Student Name</h3><br><br>
+    <input type="text" placeholder="First name" />
+    <input type="text" placeholder="Middle name" />
+    <input type="text" placeholder="Last name" /><br><br>
+<div>
+  <h3> Birth Date</h3><br><br>
+  <select id="month">
+    <option value="">--Month--</option>
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <option value="03">March</option>
+    <option value="04">April</option>
+    <option value="05">May</option>
+    <option value="06">June</option>
+    <option value="07">July</option>
+    <option value="08">August</option>
+    <option value="09">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+  </select>
+
+  <select id="day">
+    <option value="">--day--</option>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5</option>
+    <option value="">6</option>
+    <option value="">7</option>
+    <option value="">8</option>
+    <option value="">9</option>
+    <option value="">10</option>
+    <option value="">11</option>
+    <option value="">12</option>
+    <option value="">13</option>
+    <option value="">14</option>
+    <option value="">15</option>
+    <option value="">16</option>
+    <option value="">17</option>
+    <option value="">18</option>
+    <option value="">19</option>
+    <option value="">20</option>
+    <option value="">21</option>
+  </select>
+
+  <select id="year">
+    <option value="">--Year--</option>
+    <option value="2025">2025</option>
+    <option value="2024">2024</option>
+    <option value="2023">2023</option>
+    <option value="2022">2022</option>
+    <option value="2021">2021</option>
+    <option value="2020">2020</option>
+    <option value="2019">2019</option>
+    <option value="2018">2018</option>
+    <option value="2017">2017</option>
+    <option value="2016">2016</option>
+    <option value="2015">2015</option>
+  </select><br>
+
+  <h3>Gender</h3><br><br>
+  <select required>
+    <option value="Please Select">Please Select</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select><br><br>
+</div>
+    
+
+    <h3>Address</h3><br><br>
+    <input type="text" placeholder="Street Address" required><br><br>
+    <input type="text" placeholder="Street line 2 " required><br><br>
+    <input type="text" placeholder="city" required>
+    <input type="text" placeholder="State/Province" required><br><br>
+    <input type="text" placeholder="Postal/Zip Code" required>
+
+    <h3>Student E-mail</h3>
+    <input type="email" placeholder="ex:myname@example.com">
+    <h3>Mobile Number</h3>
+    <input type="tel" placeholder="000-000-0000">
+    <h3>Phone Number</h3>
+    <input type="tel" placeholder="000-000-0000">
+    <h3>Work Number</h3>
+    <input type="tel" placeholder="000-000-0000">
+    <h3>Additional Comments</h3>
+    <input type="Text" placeholder="Comments"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
